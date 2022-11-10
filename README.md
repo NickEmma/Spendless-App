@@ -26,6 +26,14 @@ In order to work on this project, you need to have the following dependencies in
 - [Yarn](https://yarnpkg.com/)
 - [Rails](https://rubyonrails.org/)
 
+## Click here for live version
+
+- live demo: [Coming Soon]()
+
+### Click here for Video Link
+
+- [Video link](Coming-Soon)
+
 ## Getting Started
 
 ### Clone this repository
