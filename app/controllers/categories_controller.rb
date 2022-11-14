@@ -26,6 +26,7 @@ class CategoriesController < ApplicationController
           render :new, locals: { group: category }
         end
       end
+     end
   end
 
   def splash; end
