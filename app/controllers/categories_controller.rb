@@ -1,7 +1,7 @@
 class CategoriesController < ApplicationController
   skip_before_action :authenticate_user!, only: %i[splash]
 
-  def index 
+  def index
     @categories = current_user.ordered_groups
   end
 
@@ -9,7 +9,7 @@ class CategoriesController < ApplicationController
     @category = current_user
     group = Group.new
     respond_to do |format|
-      format.html { render :new, locals: { group: group } }
+      format.html { render :new, locals: { group: } }
     end
   end
 
@@ -26,7 +26,7 @@ class CategoriesController < ApplicationController
           render :new, locals: { group: category }
         end
       end
-     end
+    end
   end
 
   def splash; end
