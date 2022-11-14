@@ -10,6 +10,6 @@ class User < ApplicationRecord
   validates :name, presence: true
 
   def ordered_groups
-    groups.order(:created_at: :desc)
+    groups.order(created_at: :desc)
   end
 end

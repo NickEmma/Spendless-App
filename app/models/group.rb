@@ -7,6 +7,6 @@ class Group < ApplicationRecord
  validates :icon, presence: true
 
  def ordered_transaction
-   operations.order(:created_at: :desc)
+   operations.order(created_at: :desc)
  end
 end
