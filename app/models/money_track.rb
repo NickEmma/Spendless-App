@@ -1,2 +1,0 @@
-class MoneyTrack < ApplicationRecord
-end
