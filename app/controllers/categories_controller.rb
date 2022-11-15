@@ -1,5 +1,5 @@
 class CategoriesController < ApplicationController
-  skip_before_action :authenticate_user!, only: %i[splash]
+  before_action :authenticate_user!, except: :splash
 
   def index
     @categories = current_user.ordered_groups
