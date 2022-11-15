@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, sign_out_via: [:get]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   root "categories#index"
-  get '/welcome', to: 'categories#splash', as: 'welcome'
+  get 'splash', to: 'categories#splash'
   
    resources :categories, only: %i[new create index] do 
     resources :transactions, only: %i[index create new] 

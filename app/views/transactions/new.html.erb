@@ -1,3 +1,4 @@
+<%= render 'shared/header', :title => 'Transaction' %>
 <div>
   <%= form_with model: operation, url: category_transactions_url(category_id: id), method: :post do |f| %>
     <div class="field">

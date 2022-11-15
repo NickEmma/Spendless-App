@@ -55,7 +55,7 @@ class TransactionsController < ApplicationController
     # Iterates through the categories and create relationships with the operation
     categories.each_with_index do |category_id, _index|
       group = Group.find(category_id)
-      GroupOperation.create(group:, operation: transaction)
+      MoneyGroup.create(group:, operation: transaction)
     end
     flash[:notice] = 'Transaction created successfully'
     redirect_to(category_transactions_path(category_id: first_category_id))
