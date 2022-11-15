@@ -28,7 +28,7 @@ In order to work on this project, you need to have the following dependencies in
 
 ## Click here for the live version
 
-- live demo: [](https://mysterious-retreat-34191.herokuapp.com/users/sign_in)
+- [live demo](https://mysterious-retreat-34191.herokuapp.com/users/sign_in)
 
 ### Click here for Video Link
 
