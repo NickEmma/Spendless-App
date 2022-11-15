@@ -33,6 +33,6 @@ class TransactionsController < ApplicationController
   private
 
   def operation_params
-    params.require(:operation).permit(:amount, :group_id, :date)
+    params.require(:operation).permit(:amount, :name, categories: [])
   end
 end
