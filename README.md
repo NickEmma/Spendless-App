@@ -26,10 +26,6 @@ In order to work on this project, you need to have the following dependencies in
 - [Yarn](https://yarnpkg.com/)
 - [Rails](https://rubyonrails.org/)
 
-## Click here for the live version
-
-- [live demo](https://mysterious-retreat-34191.herokuapp.com/users/sign_in)
-
 ### Click here for Video Link
 
 - [Video link](https://www.loom.com/share/aeb8eda3fe374e858c2d0d4248a1aff1)
