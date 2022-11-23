@@ -29,8 +29,6 @@ class CategoriesController < ApplicationController
     end
   end
 
-  def splash; end
-
   private
 
   def category_params
